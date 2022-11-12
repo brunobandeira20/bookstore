@@ -20,8 +20,8 @@ public class DBService {
 	
 	public void instanciaBaseDeDados() {
 		
-		Categoria cat1 = new Categoria(	null, "INFORMATICA", "TI");
-		Categoria cat2 = new Categoria(	null, "FICCAO CIENTIFCA", "SY");
+		Categoria cat1 = new Categoria(	null, "INFORMATICA", "TECNOLOGIA INFORMACAO");
+		Categoria cat2 = new Categoria(	null, "FICCAO CIENTIFICA", "TESTE");
 		Categoria cat3 = new Categoria(	null, "CULINARIA", "ALIMENTOS");
 		
 		Livro livro1 = new Livro(null, "CODE CLEAN", "MARTIN", "LAUREN IPSIM", cat1);
